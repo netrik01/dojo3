@@ -1,0 +1,800 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 4200px;
+}
+#first{
+    width: 100%;
+    height: 95vh;
+    background-color: #FFFFFF;
+}
+#ftitle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    padding: 0 200px;
+    background-color: #333333;
+}
+img{
+    height: 50%;
+}
+img:hover{
+    color: white;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .4s;
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 13px;
+    font-weight: 500;
+}
+i{
+    color: rgba(255, 255, 255, 0.719);
+}
+a:hover{
+    color: white;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .4s;
+}
+i:hover{
+    color: white;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .4s;
+}
+#adds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #F5F5F7;
+}
+#adp{
+    color: #747476;
+    font-size: 15px;
+    font-weight: 400;
+}
+#fname{
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#pn{
+    color: #1D1D1F;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+#pn1{
+    color: #1D1D1F;
+    text-align: center;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+#flearn{
+    display: flex;
+    justify-content: space-between;
+    width: 14%;
+    height: 50px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#flearn:hover{
+    text-decoration: underline #4a9ff3;
+    cursor: pointer;
+}
+#flrn{
+    color: #1583f1;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+#flear{
+    display: flex;
+    justify-content: space-between;
+    width: 9%;
+    height: 50px;
+    position: absolute;
+    top: 37%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+}
+#fln{
+    color: #3790e9;
+    font-size: 25px;
+    font-weight: 500z;
+}
+#a1{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#second{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-color: #322339;
+}
+#sname{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#sn{
+    color: #F5F5F7;
+    font-size: 60px;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#sn1{
+    margin-top: 10px;
+    color: #FEC2EB;
+    text-align: center;
+    font-weight: 300;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+#slearn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+    height: 50px;
+    position: absolute;
+    top: 35%;
+    left: 49.5%;
+    transform: translate(-50%,-50%);
+}
+#slearn:hover{
+    text-decoration: underline #4599ee;
+    cursor: pointer;
+}
+#slrn{
+    color: #1583f1;
+    font-size: 20px;
+    font-weight: 150;
+    font-family: sans-serif;
+}
+#slear{
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+    height: 50px;
+    position: absolute;
+    top: 38%;
+    left: 53.5%;
+    transform: translate(-50%,-50%);
+}
+#sln{
+    color: #4094e9;
+    font-size: 25px;
+    font-weight: 500z;
+}
+#simg{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#third{
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background-image: url(a3.png);
+    background-position: center;
+    background-size: cover;
+}
+#thnev{
+    width: 100%;
+    height: 15px;
+    background-color: #FFFFFF;
+}
+#tname{
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#tn0{
+    position: absolute;
+    top: 9%;
+    left: 42%;
+    height: 55px;
+}
+#tn{
+    color: #CB649D;
+    font-size: 60px;
+    font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#tn1{
+    /* margin-top: 10px; */
+    color: #333335;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#tn2{
+    margin-top: 20px;
+    color: #6E6E73;
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#tlearn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+    height: 50px;
+    position: absolute;
+    top: 41%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+}
+#tlearn:hover{
+    text-decoration: underline #3b98f5;
+    cursor: pointer;
+}
+#tlrn{
+    color: #1583f1;
+    font-size: 20px;
+    font-weight: 150;
+    font-family: sans-serif;
+}
+#tless{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 9.5%;
+    top: 41%;
+    left: 52.9%;
+    transform: translate(-50%,-50%);
+}
+#tlss{
+    color: #3b8ee0;
+    font-size: 20px;
+    font-weight: 150;
+}
+#fourth{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+#foleft{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #F5F5F7;
+}
+
+#folname{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#foln{
+    margin-bottom: 10px;
+    color: #DDA98B;
+    font-size: 60px;
+    font-size: 13px;
+    font-weight: 200;
+    text-align: center;
+    font-family: sans-serif;
+}
+#folapp{
+    position: absolute;
+    top: 21px;
+    left: 15%;
+    height: 30px;
+}
+#foln1{
+    color: #4A4C4D;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: GOVER;
+}
+#foln2{
+    color: #DDA98B;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+#foln3{
+    color: #4a4c4db4;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+}
+#follearn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+    left: 46.5%;
+    transform: translate(-50%,-50%);
+}
+#follearn:hover{
+    text-decoration: underline #3b94ee;
+    cursor: pointer;
+}
+#follrn{
+    color: #1583f1;
+    font-size: 20px;
+    font-weight: 150;
+    font-family: sans-serif;
+}
+#follear{
+    display: flex;
+    justify-content: space-between;
+    width: 14.8%;
+    height: 50px;
+    position: absolute;
+    top: 32.5%;
+    left: 54.6%;
+    transform: translate(-50%,-50%);
+}
+#folln{
+    color: #3792ec;
+    font-size: 25px;
+    font-weight: 200;
+}
+#folimg{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+#foright{
+    position: relative;
+    margin-left: 15px;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1610718195053-d8e01460570d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#frtname{
+    position: absolute;
+    width: 50%;
+    top: 14%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+}
+#frtn{
+    color: #f3c4cf;
+    font-size: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+}
+#frtn1{
+    color: #dfbdc5b4;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#frtn2{
+    color: #95979780;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+}
+#frtn3{
+    color: #95979780;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+}
+#frtlearn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    top: 27%;
+    left: 82.5%;
+    transform: translate(-50%,-50%);
+}
+#frtlearn:hover{
+    text-decoration: underline #D6D6D6;
+    cursor: pointer;
+}
+#frtlrn{
+    color: #D6D6D6;
+    font-size: 16px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+#frtlear{
+    display: flex;
+    justify-content: space-between;
+    width: 14.8%;
+    height: 50px;
+    position: absolute;
+    top: 29.7%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+}
+#frtln{
+    color: #D6D6D6;
+    font-size: 20px;
+    font-weight: 100;
+}
+#frtimg{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#fifth{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    padding: 0 15px;
+    background-color: #FFFFFF;
+}
+#fileft{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(A5.png);
+    background-position: center;
+    background-size: cover;
+}
+#finame{
+    position: absolute;
+    width: 50%;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#fin{
+    color: #602D62;
+    font-size: 60px;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    font-family: "Beautifully";
+}
+#fin1{
+    color: #bb5abe;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+#filearn{
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    top: 27%;
+    left: 55.5%;
+    transform: translate(-50%,-50%);
+}
+#filearn:hover{
+    text-decoration: underline #0F6ECF;
+    cursor: pointer;
+}
+#filrn{
+    color: #0F6ECF;
+    font-size: 16px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+#filear{
+    width: 14.8%;
+    height: 50px;
+    position: absolute;
+    top: 29.7%;
+    left: 61%;
+    transform: translate(-50%,-50%);
+}
+#filn{
+    color: #0F6ECF;
+    font-size: 20px;
+    font-weight: 100;
+}
+#firight{
+    position: relative;
+    margin-left: 15px;
+    width: 50%;
+    height: 100%;
+    background-image: url(A6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#firname{
+    position: absolute;
+    width: 75%;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#firn{
+    color: #F5F5F7;
+    font-size: 60px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+}
+#firn1{
+    color: #f5f5f77a;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+#firlearn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    top: 27%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+#firlearn:hover{
+    text-decoration: underline #0F6ECF;
+    cursor: pointer;
+}
+#firlrn{
+    color: #0F6ECF;
+    font-size: 16px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+#firlear{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+    height: 50px;
+    position: absolute;
+    top: 27.2%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+#firln{
+    color: #0F6ECF;
+    font-size: 20px;
+    font-weight: 100;
+}
+#sixth{
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+#sileft{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(A7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#sxlname{
+    position: absolute;
+    top: 15%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+}
+#sxln{
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#sxlapp{
+    position: absolute;
+    top: 3px;
+    left: 7%;
+    height: 35px;
+}
+#sxln1{
+    margin-top: -15px;
+    color: #0f0f0f;
+    text-align: center;
+    font-weight: 350;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#sxllearn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100;
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    top: 27.5%;
+    left: 46.5%;
+    transform: translate(-50%,-50%);
+}
+#sxllearn:hover{
+    text-decoration: underline #2b8cee;
+    cursor: pointer;
+}
+#sxllrn{
+    color: #1583f1;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+#sxllear{
+    display: flex;
+    justify-content: space-between;
+    width: 14.8%;
+    height: 50px;
+    position: absolute;
+    top: 30.1%;
+    left: 54.6%;
+    transform: translate(-50%,-50%);
+}
+#sxlln{
+    color: #298ef3;
+    font-size: 25px;
+    font-weight: 200;
+}
+#siright{
+    position: relative;
+    margin-left: 15px;
+    width: 50%;
+    height: 100%;
+    background-image: url(A8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#sirname{
+    position: absolute;
+    top: 13%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
+#sirn{
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#sirapp{
+    position: absolute;
+    top: 3px;
+    left: -35px;
+    height: 35px;
+}
+
+#sirname2{
+    position: absolute;
+    bottom: 30px;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
+#sir2n{
+    position: absolute;
+    left: -2px;
+    top: -11px;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    font-family: Agnostic;
+}
+#sir2n1{
+    color: #000000;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Kong Font;
+}
+#sirapp{
+    position: absolute;
+    top: 3px;
+    left: -35px;
+    height: 35px;
+}
+
+#firearn{
+    position: absolute;
+    font-weight: 100;
+    width: 25%;
+    height: 50px;
+    bottom: -20px;
+    left: 58%;
+    transform: translate(-50%,-50%);
+}
+#firearn:hover{
+    text-decoration: underline #000000;
+    cursor: pointer;
+}
+#firrn{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 50;
+    font-family: sans-serif;
+}
+#firear{
+    width: 14.8%;
+    height: 50px;
+    position: absolute;
+    bottom: -20px;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+#firn{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 100;
+}
+#last{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-color: #F5F5F7;
+}
+#latext{
+    position: absolute;
+    left: 20%;
+    top: 25px;
+    width: 60%;
+    height: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.603);
+}
+#lst{
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 16px;
+    font-weight: 200;
+}
